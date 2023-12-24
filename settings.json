@@ -1,0 +1,32 @@
+{
+  "server": {
+    "port": 3000
+  },
+  "database": {
+    "host": "localhost",
+    "port": 27017,
+    "name": "apsg_db"
+  },
+  "optimization": {
+    "enable": true,
+    "rules": "rules.js"
+  },
+  "visualization": {
+    "enable": true,
+    "url": "http://localhost:3000"
+  },
+  "versionControl": {
+    "type": "git",
+    "repository": "https://github.com/yourusername/advanced-project-structure-generator.git"
+  },
+  "documentation": {
+    "enable": true,
+    "output": "README.md"
+  },
+  "analytics": {
+    "enable": true
+  },
+  "cli": {
+    "enable": true
+  }
+}
